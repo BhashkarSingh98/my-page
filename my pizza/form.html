@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(piz2/p10.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+
+        }
+
+        div.main {
+
+            height: 1000px;
+            width: 750px;
+            justify-content: center;
+            align-items: center;
+            margin: 100px auto;
+
+            border: 3px solid black;
+            box-shadow: 5px 5px 9px 1px rgba(228, 223, 223, -10);
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            }
+            @media screen and (max-width:530px) {
+                body{
+                    background-size: auto cover;
+                    background-position: center center center;
+                    background-repeat: repeat;
+                    position: fixed;
+                    
+                }
+                div.main {
+
+                         height: 1000px;
+                         width: 500px;
+                         justify-content: center;
+                         align-items: center;
+                         margin: 20px auto;
+
+                         border: 3px solid black;
+                         box-shadow: 5px 5px 9px 1px rgba(228, 223, 223, -10);
+                         background-color: rgba(226, 30, 30, 0.87);
+                         border-radius: 10px;
+                        }
+                        
+        div.register {
+            height: 600px;
+            width: 450px;
+            margin: 20px auto;
+          }
+            
+              
+          }
+
+        .sp {
+            height: 700px;
+
+            border: 2px solid rgb(89, 21, 248);
+        }
+
+        legend {
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        #register {
+            margin: 50px auto;
+
+        }
+
+        h2 {
+            color: rgb(31, 211, 55);
+            text-align: center;
+            font-family: cursive;
+            font-size: 20px;
+            background-color: rgba(47, 6, 231, 0.849);
+            border-radius: 20px;
+
+
+        }
+
+        fieldset {
+            height: 700px;
+
+        }
+
+        label {
+            font-size: 40px;
+            color: rgba(15, 13, 13, 0.781);
+            margin-left: 50px;
+            font-family: cursive;
+            font-weight: bold;
+        }
+
+        #name{
+            margin-left: 50px;
+            margin-top: 2px;
+            width: 250px;
+            height: 25px;
+            border-radius: 30px;
+            overflow: 0;
+            background-color: rgba(228, 222, 222, 0.712);
+            border: rgba(0, 0, 0, 0.3);
+            outline: 0;
+
+
+        }
+        #
+       
+
+            
+
+        }
+        span{
+            font-size: 50px;
+        }
+        #gender{
+            margin-left: 50px;
+        }
+        #hindi{
+            margin-left: 50px;
+
+        }
+        #submit{
+          
+            width: 230px;
+            height: 35px;
+            border-radius: 20px;
+            background-color:rgba(92, 35, 165, 0.658);
+            outline: 0;
+            font-weight: bold;
+        }
+
+                        
+        
+        
+           /* --------------------------------- */
+           
+
+        }
+
+
+        div.register {
+            height: 800px;
+            width: 500px;
+            margin: 50px auto;
+          }
+            
+              
+          }
+
+        .sp {
+
+            border: 2px solid black;
+        }
+
+        legend {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        #register {
+            margin: 100px auto;
+
+        }
+
+        h2 {
+            color: #ffff;
+            text-align: center;
+            font-family: cursive;
+            font-size: 40px;
+            background-color: rgba(6, 231, 32, 0.719);
+            border-radius: 20px;
+
+
+        }
+
+        fieldset {
+            height: 700px;
+
+        }
+
+        label {
+            font-size: 30px;
+            color: rgba(15, 13, 13, 0.781);
+            margin-left: 50px;
+            font-family: cursive;
+            font-weight: bold;
+        }
+
+        #name{
+            margin-left: 50px;
+            margin-top: 2px;
+            width: 280px;
+            height: 40px;
+            border-radius: 30px;
+            overflow: 0;
+            background-color: rgba(228, 222, 222, 0.712);
+            border: rgba(0, 0, 0, 0.3);
+            outline: 0;
+
+
+        }
+        #
+       
+
+            
+
+        }
+        span{
+            
+            font-size: 20px;
+        }
+        #gender{
+            margin-left: 50px;
+        }
+        #hindi{
+            margin-left: 50px;
+
+        }
+        #submit{
+            margin-left: 150px;
+            width: 150px;
+            height: 25px;
+            border-radius: 20px;
+            background-color:rgba(224, 211, 211, 0.658);
+            outline: 0;
+            font-weight: bold;
+        }
+
+        
+
+
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>register here</h1>
+                <form id="register" method="post">
+                    <fieldset class="sp">
+                        <legend>personal info</legend>
+
+                        <label for="">first name:</label><br>
+                        <input type="text" name="user name" placeholder="first name" id="name">
+                        <br><br>
+                        <label for="">last name:</label><br>
+                        <input type="text" name="user name" placeholder="last name" id="name">
+                        <br><br>
+                        <label for="">date of birth:</label><br>
+                        <input type="date" name="userdob" id="name">
+                        <br><br>
+                        <label for="">email:</label><br>
+                        <input type="email" name="useremail" placeholder="example@gmail,com" id="name">
+                        <br><br>
+                        <div class="g">
+                            <label for="gender">gender: </label><br>
+                            <input type="radio" name="usergender" id="gender">
+                            <span id="male">male</span>
+                            <input type="radio" name="usergender" id="gender">
+                            <span id="female">female</span>
+                            <input type="radio" name="usergender" id="gender">
+                            <span id="other">other</span>
+                            <br><br>
+                            <label for="">language known:</label><br>
+                            <input type="checkbox" name="language" id="hindi">
+                            <span id="hindi1">hindi</span>
+                            <input type="checkbox" name="language" id="hindi">
+
+                            <span id="english">english</span>
+
+                            <input type="checkbox" name="language" id="hindi">
+
+                            <span id="kumauni">kumauni</span>
+                        </div>
+                        <br><br>
+                        <input type="submit" value="submit" name="submit" id="submit">
+
+                    </fieldset>
+
+
+
+
+                </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
